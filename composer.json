@@ -1,0 +1,28 @@
+{
+    "name": "ashley-hardy/language",
+    "description": "A simple language service for string translations.",
+    "type": "library",
+    "require": {
+        "ashley-hardy/utilities": "^2.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AshleyHardy\\Language\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ashley Hardy",
+            "email": "ashley@h4rdy.co.uk"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
