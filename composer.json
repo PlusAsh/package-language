@@ -3,7 +3,7 @@
     "description": "A simple language service for string translations.",
     "type": "library",
     "require": {
-        "ashley-hardy/utilities": "^2.0"
+        "ashley-hardy/utilities": "^2.0.2"
     },
     "require-dev": {
         "pestphp/pest": "^2.5"
