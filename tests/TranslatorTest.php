@@ -22,3 +22,13 @@ test(
         expect($unknownKey)->toEqual('unknown.key');
     }
 );
+
+test(
+    'Translator gets and sets the default locale accordingly.',
+    function() {
+        expect(Language::getDefaultLocale())->toEqual('en_GB');
+
+        Language::setDefaultLocale('yeah-boi');
+        expect(Language::getDefaultLocale())->toEqual('yeah-boi');
+    }
+);

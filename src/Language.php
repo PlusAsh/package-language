@@ -31,6 +31,16 @@ class Language
     }
 
     /**
+     * Get the default locale.
+     *
+     * @return string
+     */
+    public static function getDefaultLocale(): string
+    {
+        return self::instance()->defaultLocale;
+    }
+
+    /**
      * Loads a language file from disk, and store it against the $locale.
      * If $locale is null, the language data will be stored against the $defaultLocale value.
      *
